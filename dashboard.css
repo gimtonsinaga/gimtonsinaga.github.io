@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Kanit', sans-serif;
+    /* border:1px solid black; */
+}
+.sidebar{
+    position:fixed;
+    width:200px;
+    top:0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: 100vh;
+    background-color: #EEF5FF;
+}
+.logo-profile{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.judul{
+    margin-top:20px;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    color: #11009E;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.menu{
+    margin-top: 10px;
+    display:block;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ ul{
+    padding:10px;
+ }
+li:hover{
+    background-color: #86B6F6;
+    color:white;
+}
+li{
+    padding:10px;
+    width: 80%;
+    border-radius:20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.upgrade-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+button{
+    margin-top: 10px;
+    border:1px solid #11009E;
+    outline:none;
+    background-color:#11009E;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+}
+button:hover{
+    background-color: white;
+    color: #11009E;
+    border:1px solid lightgray;
+}
+.upgrade{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.img-premium{
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    overflow: hidden;
+    border: 1px solid lightgray;
+    width:170px;
+    aspect-ratio: 1/1;
+    margin-top:20px;
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.teks-premium p{
+    padding-left:17%;
+}
+.card-premium{
+    background-color: #EEF5FF;
+    margin-top:100px;
+    width: 90%;
+}
+.dashboard{
+    margin-left: 250px;
+}
+.box-header{
+    width:800px;
+    height: 200px;
+    background-color: #EEF5FF;
+    border-radius:30px;
+}
+.teks-box-header{
+    font-size: 30px;
+    padding-left:15px;
+    padding-top:40px;
+}
+.sub-teks{
+    padding-left:15px;
+}
+.box-2{
+    display: flex;
+    margin-top:10px;
+}
+.box-graph{
+    width:300px;
+    height:300px;
+    border-radius: 30px;
+    background-color: #EEF5FF;
+   margin-right: 20px;
+}
+.box-score{
+    width:480px;
+    height:300px;
+    /* padding-left:20px; */
+    border-radius:30px;
+    background-color: #EEF5FF;
+}
+.box-achive{
+    display: flex;
+    margin-top: 20px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+.achive1{
+    width:250px;
+    height:100px;
+    background-color:#11009E;
+    border-radius:30px;
+}
+.achive2{
+    width:250px;
+    height:100px;
+    background-color: #FF4B91;
+    border-radius:30px;
+}
+.achive3{
+    width:250px;
+    height:100px;
+    background-color: #FF7676;
+    border-radius:30px;
+}
+.img-dashboard-vektor{
+    max-width:350px;
+    height: auto;
+    margin-bottom:-260px;
+    z-index: 3;
+    margin-left:430px;
+}
+.profile{
+  width: 250px;
+  height: auto;
+  background-color: #EEF5FF;
+  margin-left: 1000px;
+}
+.header{
+    border-radius:30px;
+}
+.button-header{
+    padding-left:15px;
+    border-radius:30px;
+}
+.content{
+    display: flex;
+}
